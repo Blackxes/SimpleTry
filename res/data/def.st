@@ -1,0 +1,1 @@
+playerCanRun                             = 20
