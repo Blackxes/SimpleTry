@@ -37,6 +37,8 @@
 //--------------------------------------------
 // Teilt den String in einzelstrings auf die durch cSeperator getrennt werden
 // und speichert sie in eine Liste
+template <class T>
+std::list<T>		stExplodeList(std::string sString, char cSeperator = ',');
 std::list<float>		stExplodeList(std::string sString, char cSeperator = ',');
 std::list<std::string>	stExplodeListString(std::string sString, char cSeperator = ',');
 
